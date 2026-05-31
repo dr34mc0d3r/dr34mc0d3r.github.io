@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Resume | Dr34m3r</title>
+    <!-- Tailwind CSS v4 CDN -->
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+</head>
+<body class="bg-slate-50 text-slate-800 font-sans antialiased selection:bg-blue-500 selection:text-white">
+
+    <div class="max-w-4xl mx-auto my-12 p-8 bg-white shadow-xs rounded-xl border border-slate-100 md:p-12">
+        
+        <!-- Header Section -->
+        <header class="border-b border-slate-200 pb-8 mb-8 flex flex-col md:flex-row md:justify-between md:items-end gap-4">
+            <div>
+                <h1 class="text-4xl font-extrabold tracking-tight text-slate-900">Chris Jackson</h1>
+                <p class="text-xl font-medium text-blue-600 mt-1">Systems & Software Engineer</p>
+            </div>
+            <div class="text-sm text-slate-600 space-y-1 md:text-right">
+                <p>📍 Florida, USA</p>
+                <p>✉️ <a href="mailto:your.email@example.com" class="hover:text-blue-600 transition-colors">your.email@example.com</a></p>
+                <p>🔗 <a href="https://github.com/yourusername" class="hover:text-blue-600 transition-colors">github.com/yourusername</a></p>
+            </div>
+        </header>
+
+        <!-- Profile/Summary -->
+        <section class="mb-10">
+            <h2 class="text-lg font-bold uppercase tracking-wider text-slate-400 mb-3">Profile</h2>
+            <p class="text-slate-700 leading-relaxed">
+                Detail-oriented Engineer with extensive experience designing custom software architectures, hardware integrations, and workflow automation tools. Adept at breaking down complex logic systems into maintainable, robust implementations.
+            </p>
+        </section>
+
+        <!-- Technical Skills Matrix -->
+        <section class="mb-10">
+            <h2 class="text-lg font-bold uppercase tracking-wider text-slate-400 mb-4">Technical Expertise</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+                <div class="bg-slate-50 p-4 rounded-lg border border-slate-100">
+                    <h3 class="font-semibold text-slate-900 mb-2">Software & Web</h3>
+                    <p class="text-sm text-slate-600 leading-relaxed">ReactJS, Tailwind CSS, Node.js, Sequelize ORM, WebSockets, Python</p>
+                </div>
+                <div class="bg-slate-50 p-4 rounded-lg border border-slate-100">
+                    <h3 class="font-semibold text-slate-900 mb-2">Hardware & Embedded</h3>
+                    <p class="text-sm text-slate-600 leading-relaxed">ESP32 Firmware, Closed-Loop Stepper Systems, PID Controllers, 3D Prototyping</p>
+                </div>
+                <div class="bg-slate-50 p-4 rounded-lg border border-slate-100">
+                    <h3 class="font-semibold text-slate-900 mb-2">Systems & Tools</h3>
+                    <p class="text-sm text-slate-600 leading-relaxed">Git, CLI Automation, Database Migrations, Markdown Workflows (Obsidian)</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section class="mb-10">
+            <h2 class="text-lg font-bold uppercase tracking-wider text-slate-400 mb-6">Professional Experience</h2>
+            
+            <div class="space-y-8">
+                <!-- Role 1 -->
+                <div class="relative pl-6 before:absolute before:left-0 before:top-2 before:bottom-0 before:w-0.5 before:bg-blue-500">
+                    <div class="flex flex-col sm:flex-row sm:justify-between sm:items-start mb-2">
+                        <div>
+                            <h3 class="font-bold text-slate-900 text-lg">Employment Specialist & Systems Developer</h3>
+                            <p class="text-slate-600 text-sm">Vocational Partner Vendor</p>
+                        </div>
+                        <span class="text-xs font-semibold bg-blue-50 text-blue-700 px-2.5 py-1 rounded-full mt-1 sm:mt-0 inline-block self-start">2025 — Present</span>
+                    </div>
+                    <ul class="list-disc list-inside text-slate-700 text-sm space-y-2 ml-1">
+                        <li>Engineered custom relational database tools utilizing Sequelize ORM to enforce strict data compliance structures.</li>
+                        <li>Designed and deployed lightweight data architectures tracking critical case management lifecycles.</li>
+                        <li>Optimized reporting workflows, reducing administrative overhead through targeted automated validation tools.</li>
+                    </ul>
+                </div>
+
+                <!-- Role 2 -->
+                <div class="relative pl-6 before:absolute before:left-0 before:top-2 before:bottom-0 before:w-0.5 before:bg-slate-200">
+                    <div class="flex flex-col sm:flex-row sm:justify-between sm:items-start mb-2">
+                        <div>
+                            <h3 class="font-bold text-slate-900 text-lg">Systems Engineer / Independent Contractor</h3>
+                            <p class="text-slate-600 text-sm">Hardware & Software Integration</p>
+                        </div>
+                        <span class="text-xs font-semibold bg-slate-100 text-slate-600 px-2.5 py-1 rounded-full mt-1 sm:mt-0 inline-block self-start">Previous Tenure</span>
+                    </div>
+                    <ul class="list-disc list-inside text-slate-700 text-sm space-y-2 ml-1">
+                        <li>Developed firmware modules for ESP32 systems, managing low-latency communication via stateful WebSocket setups.</li>
+                        <li>Implemented precise physical feedback systems implementing closed-loop PID algorithms for mechanical controllers.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="mb-6">
+            <h2 class="text-lg font-bold uppercase tracking-wider text-slate-400 mb-4">Selected Engineering Projects</h2>
+            <div class="space-y-4">
+                <div class="p-4 rounded-lg border border-slate-200 hover:border-blue-300 transition-colors">
+                    <h3 class="font-bold text-slate-900">Motorized Moon Phase Simulator</h3>
+                    <p class="text-sm text-slate-600 mt-1">
+                        A real-time physical simulation translating astronomical datasets directly into high-precision mechanical motion via custom firmware and closed-loop motor systems.
+                    </p>
+                </div>
+                <div class="p-4 rounded-lg border border-slate-200 hover:border-blue-300 transition-colors">
+                    <h3 class="font-bold text-slate-900">Real-Time Financial Sonification Engine</h3>
+                    <p class="text-sm text-slate-600 mt-1">
+                        Python-driven pipeline monitoring and parsing volatile financial tick indicators, mapping real-time data fluctuations directly to structured MIDI signals.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+</body>
+</html>
